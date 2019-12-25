@@ -1,5 +1,21 @@
+body {
+
+}
+
 body.pwa {
     -webkit-user-select: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
+}
+
+body.mobile-web {
+    background-color: aquamarine;
+}
+
+.mobile-web-push {
+    display: none;
+}
+
+body.mobile-web .mobile-web-push {
+    display: block;
 }

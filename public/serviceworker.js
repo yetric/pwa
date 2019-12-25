@@ -1,4 +1,4 @@
-const CACHE_NAME = "app-cache-v1";
+const CACHE_NAME = "app-cache-v2";
 const urlsToCache = ["/", "/css/app.css", "/js/app.js"];
 
 self.addEventListener("install", function(event) {
